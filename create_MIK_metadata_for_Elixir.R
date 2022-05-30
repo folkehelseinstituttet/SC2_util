@@ -138,6 +138,7 @@ lookup_function <- function(metadata) {
 
 
 # Read BioNumerics --------------------------------------------------------
+# Remember to refresh BN first
 load(file = "N:/Virologi/JonBrate/Prosjekter/BN.RData")
 
 # Convert empty strings to NA
