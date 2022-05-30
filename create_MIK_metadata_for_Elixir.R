@@ -138,8 +138,8 @@ lookup_function <- function(metadata) {
 
 
 # Read BioNumerics --------------------------------------------------------
+load(file = "N:/Virologi/JonBrate/Prosjekter/BN.RData")
 
-load(file = "/mnt/N/Virologi/JonBrate/Prosjekter/BN.RData")
 # Convert empty strings to NA
 BN <- BN %>% mutate_all(list(~na_if(.,""))) %>% 
   # Convert NA as strings to true NA
